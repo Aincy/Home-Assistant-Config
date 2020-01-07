@@ -1,0 +1,15 @@
+#----------------------------------------------------------------------------------------------------#
+#
+# Home Assistant invia una notifica in loop ogni minuto nel momento in cui la sirena si attiva
+#
+#----------------------------------------------------------------------------------------------------#
+  sirena_alarm:
+    name: SIRENA ALLARME
+    done_message: La sirena è stata spenta!
+    entity_id: switch.aeon_labs_zw080_siren_gen5_switch
+    state: 'on'
+    repeat: 1
+    can_acknowledge: true
+    skip_first: true
+    notifiers:
+      - telegram
