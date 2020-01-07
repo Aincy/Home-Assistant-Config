@@ -1,0 +1,38 @@
+#----------------------------------------------------------------------------------------------------#
+#
+# Home Assistant Lovelace
+#
+#----------------------------------------------------------------------------------------------------#
+title: !secret name_house
+background: var(--background-image)
+custom_header:
+  compact_mode: true
+resources:
+  # Community Plugin
+  - url: /community_plugin/bar-card/bar-card.js
+    type: js
+  - url: /community_plugin/vertical-stack-in-card/vertical-stack-in-card.js
+    type: js
+  - url: /community_plugin/love-lock-card/love-lock-card.js
+    type: js
+  - url: /community_plugin/mini-graph-card/mini-graph-card-bundle.js
+    type: module
+  - url: /community_plugin/custom-header/custom-header.js
+    type: module
+  - url: /community_plugin/lovelace-slider-entity-row/slider-entity-row.js
+    type: module
+  - url: /community_plugin/lovelace-fold-entity-row/fold-entity-row.js
+    type: module
+  - url: /community_plugin/config-template-card/config-template-card.js
+    type: module
+  - url: /community_plugin/button-card/button-card.js
+    type: module
+  - url: /community_plugin/banner-card/banner-card.js
+    type: module
+  - url: /community_plugin/lovelace-multiple-entity-row/multiple-entity-row.js
+    type: js
+  - url: /community_plugin/button-entity-row/button-entity-row.js
+    type: module
+  - url: /community_plugin/lovelace-text-input-row/lovelace-text-input-row.js
+    type: js
+views: !include_dir_list lovelace
