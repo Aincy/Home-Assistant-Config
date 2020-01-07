@@ -1,8 +1,9 @@
 # DEVICES
-Questa è una lista (in continuo aggiornamento) dei dispositivi smart che utilizzo quotidianamente. Sono stati tutti integrati all'interno di Home Assistant, mediante le configurazioni che trovate in questa repository.
+Questa è una lista (in continuo aggiornamento) dei dispositivi smart che utilizzo quotidianamente.
+Sono stati tutti integrati all'interno di Home Assistant, mediante le configurazioni che trovate in questa repository.
 
 # SERVER
-Utilizzo come server domestico un [INTEL NUC7I3BNH] con a bordo 4 GB di Ram, [120 Gb di SSD M2 Samsung].
+Utilizzo come server per la mia domotica un [INTEL NUC7I3BNH] con a bordo 4+8= 12 GB di Ram, [120 Gb di SSD M2 Samsung].
 Il sistema operativo è [Proxmox] sul quale girano come Virtual Machine:
  - un sistema Linux [Debian] con [Docker], su cui tra gli altri gira il container ufficiale di [Home Assistant per amd64].
  - un container [Ubuntu] con [Pi-Hole] installato seguendo [questa guida].
