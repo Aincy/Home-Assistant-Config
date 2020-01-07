@@ -9,6 +9,10 @@ Utilizzo come server per la mia domotica un [INTEL NUC7I3BNH] con a bordo 4+8= 1
 Il sistema operativo è [Proxmox 6] sul quale girano come Virtual Machine:
  - un sistema Linux [Debian] con [Docker], su cui tra gli altri gira il container ufficiale di [Home Assistant per amd64].
  - un container [Ubuntu] con [Pi-Hole] installato seguendo [questa guida].
+ Al NUC ho collegato:
+  - una [Aeotec USB Z-Stick] che gestisce tutta la rete Z-Wave di casa.
+  - una [SanDisk Ultra Fit] da 128 GB sulla quale conservo i backup dei container e delle VM di Proxmox generati in modo automatico dal sistema.
+
 
 # CONFIGURAZIONE SECONDARIA
 Utilizzo come postazione secondaria un [Raspberry Pi 3 Model B] con installato a bordo Hassio come da [guida ufficiale].
@@ -30,3 +34,5 @@ Al dispositivo ho collegato:
 [guida ufficiale]: <https://www.home-assistant.io/hassio/installation/>
 [Conbee 2]: <https://amzn.to/2QXWJSx>
 [powerbank Zendure con tecnologia Passthrough]: <https://amzn.to/2s1vaiw>
+[Aeotec USB Z-Stick]: <https://amzn.to/2tzeiAj>
+[SanDisk Ultra Fit]: <https://amzn.to/2ukIDmi>
