@@ -1,5 +1,5 @@
 # Home-Assistant-Config
-[UNDER COSTRUCTION]
+[UNDER CONSTRUCTION]
 
 Su [questa pagina] trovate un riepilogo dei dispositivi smart che utilizzo nella mia configurazione Home Assistant.
 
