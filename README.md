@@ -1,5 +1,5 @@
 # Home-Assistant-Config
-[UNDER CONSTRUCTION]
+![header](/extras/img/header.png "header")
 
 Su [questa pagina] trovate un riepilogo dei dispositivi smart che utilizzo nella mia configurazione Home Assistant.
 
