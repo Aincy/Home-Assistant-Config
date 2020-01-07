@@ -1,0 +1,96 @@
+title: Energia
+panel: false
+path: energy
+id: energia
+icon: mdi:power-plug
+cards:
+    - type: custom:vertical-stack-in-card
+      cards:
+        - type: entities
+          show_header_toggle: false
+          title: CONSUMI CASA
+          entities:
+            - type: section
+              label: ''
+            - entity: switch.specchio_bagno_1
+              type: custom:multiple-entity-row
+              name: Frigorifero
+              toggle: true
+              primary:
+                entity: sensor.consumo_frigorifero
+            - entity: switch.specchio_bagno_1
+              type: custom:multiple-entity-row
+              name: Specchio Bagno
+              toggle: true
+              primary:
+                entity: sensor.consumo_specchio
+            - entity: switch.fibaro_system_fgs223_double_relay_switch_2
+              type: custom:multiple-entity-row
+              name: Scaldabagno
+              toggle: true
+              primary:
+                entity: sensor.fibaro_system_fgs223_double_relay_power
+            - entity: switch.sonoff_1000a28c4b
+              type: custom:multiple-entity-row
+              name: Pozzo
+              toggle: true
+              primary:
+                entity: sensor.fibaro_system_fgs223_double_relay_power
+            - type: section
+              label: ''
+            - entity: sensor.widom_ume304_energy_driven_switch_power
+              name: GENERALE POWER W
+###################################################################
+#                          GENERALE                               #
+###################################################################
+        - type: custom:vertical-stack-in-card
+          cards:
+            - type: custom:mini-graph-card
+              entities:
+                - sensor.widom_ume304_energy_driven_switch_power
+              name: CONSUMO GENERALE
+              icon: mdi:flash
+              show:
+                graph: bar
+              hours_to_show: 2
+              points_per_hour: 60
+              color_thresholds:
+              - value: 500
+                color: "#f39c12"
+              - value: 900
+                color: "#d35400"
+              - value: 1500
+                color: "#c0392b"
+            - type: custom:mini-graph-card
+              entities:
+                - sensor.widom_ume304_energy_driven_switch_power
+              hours_to_show: 24
+              points_per_hour: 4
+              show:
+                  name: false
+                  icon: false
+                  state: false
+###################################################################
+#                       GENERALE MISTO                            #
+###################################################################
+        - type: custom:vertical-stack-in-card
+          title: ''
+          cards:
+            - type: custom:mini-graph-card
+              entities:
+                - entity: sensor.consumo_frigorifero
+                  name: Frigorifero
+                - entity: sensor.consumo_specchio
+                  name: Specchio Bagno 1
+                - entity: sensor.fibaro_system_fgs223_double_relay_power
+                  name: Scaldabagno
+                - entity: sensor.fibaro_system_fgs223_double_relay_power
+                  name: Pozzo
+              hours_to_show: 24
+              points_per_hour: 4
+              show:
+                name: false
+                icon: false
+                state: false
+                labels: true
+                labels_secondary: true
