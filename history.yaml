@@ -1,0 +1,10 @@
+exclude:
+    domains:
+      - automation
+    entities:
+      - sensor.date
+      - sensor.date_time
+      - sensor.time_utc
+      - sensor.date_time_iso
+      - sensor.date_time
+      - sensor.internet_time
