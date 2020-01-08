@@ -60,6 +60,11 @@ Per bloccare le pubblicità di Youtube invece prendendo spunto da [Domology 2.0]
 ### Per aggiornare il nostro Pihole da console del container:
 > pihole -up
 
+### CONFIGURAZIONE
+E' necessario per far funzionare il nostro nuovo ad-blocker inserire come DNS sul nostro router l'ip che abbiamo prenotato per il nostro Pihole.
+
+### CONSIGLIO
+Ho preso come abitudine inserire in whitelist i siti che più gradisco sul web in modo da supportarli con le loro pubblicità. Pihole deve essere solo uno strumento di "difesa" dalle pubblicità sgradevoli e fastidiose che alcuni portali web inseriscono in modo da migliorare la nostra navigazione web, ma non ucciderla eliminando gli introiti, che seppur minuscoli, finanziano le risorse che noi utilizziamo su internet.
 
 [blog di Andrea Draghetti]: <https://www.andreadraghetti.it/block-list-e-white-list-per-pi-hole-e-ad-blocker/>
 [Domology 2.0]:<https://domology.es/bloquear-anuncios-de-youtube-con-pi-hole/>
