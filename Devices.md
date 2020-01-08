@@ -6,12 +6,14 @@ La configurazione principale legge i dati e comunica con la seconda attraverso i
 
 # CONFIGURAZIONE PRINCIPALE
 Utilizzo come server per la mia domotica un [INTEL NUC7I3BNH] con a bordo 4+8= 12 GB di Ram, [120 Gb di SSD M2 Samsung].
-Il sistema operativo è [Proxmox 6] sul quale girano come Virtual Machine:
+Il sistema operativo è [Proxmox 6] sul quale abbiamo:
  - un sistema Linux [Debian] con [Docker], su cui tra gli altri gira il container ufficiale di [Home Assistant per amd64].
  - un container [Ubuntu] con [Pi-Hole] installato seguendo [questa guida].
  Al NUC ho collegato:
   - una [Aeotec USB Z-Stick] che gestisce tutta la rete Z-Wave di casa.
   - una [SanDisk Ultra Fit] da 128 GB sulla quale conservo i backup dei container e delle VM di Proxmox generati in modo automatico dal sistema.
+
+Nella sezione [Proxmox guide] trovate varie guide che ho seguito per creare e gestire i vari Container o le VM.
 
 
 # CONFIGURAZIONE SECONDARIA
