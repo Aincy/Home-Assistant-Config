@@ -1,0 +1,18 @@
+person.1:
+      entity_picture: !secret picture_1
+person.2:
+      entity_picture: !secret picture_2
+person.3:
+      entity_picture: !secret picture_3
+person.4:
+      entity_picture: !secret picture_4
+switch.proxmox_ct_unifi:
+      icon: mdi:package-variant-closed
+switch.proxmox_ct_pihole:
+      icon: mdi:package-variant-closed
+switch.proxmox_ct_apache:
+      icon: mdi:package-variant-closed
+switch.proxmox_ct_tuya_convert:
+      icon: mdi:package-variant-closed
+switch.proxmox_ct_hassio:
+      icon: mdi:package-variant-closed
