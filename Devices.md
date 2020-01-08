@@ -22,7 +22,7 @@ Al dispositivo ho collegato:
 
 [INTEL NUC7I3BNH]: <https://amzn.to/2TTdeDw>
 [120 Gb di SSD M2 Samsung]: <https://amzn.to/2HDHZWw>
-[Proxmox]: <https://www.proxmox.com/en/>
+[Proxmox 6]: <https://www.proxmox.com/en/>
 [Debian]: <https://www.debian.org/>
 [Docker]: <https://www.docker.com/>
 [Home Assistant per amd64]: <https://diyfuturism.com/index.php/2018/03/20/pi-to-nuc-part-1-migrating-hass-io-to-a-virtual-machine-proxmox-docker/>
