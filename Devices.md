@@ -2,7 +2,7 @@
 Questa è una lista (in continuo aggiornamento) dei dispositivi smart che utilizzo quotidianamente.
 Sono stati tutti integrati all'interno di Home Assistant, mediante le configurazioni che trovate in questa repository.
 Utilizzo 2 Sistemi Home Assistant nella mia abitazione in quanto mi andavano in conflitto la penna che gestisce la rete Z-Wave e la rete Zigbee sulla stessa configurazione.
-La configurazione principale legge i dati e comunica con la seconda attraverso il plugin [remote_homeassistant].
+La configurazione principale legge i dati e comunica con la seconda attraverso il plugin [remote_homeassistant]. Le entità della seconda configurazione hanno come prefisso 'ha2_' nella prima.
 
 # CONFIGURAZIONE PRINCIPALE
 Utilizzo come server per la mia domotica un [INTEL NUC7I3BNH] con a bordo 4+8= 12 GB di Ram, [120 Gb di SSD M2 Samsung].
